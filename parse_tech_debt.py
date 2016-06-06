@@ -1,8 +1,12 @@
 import json, os
 
-with open(os.path.expanduser('~/Desktop/out2.json')) as f:
-    text = f.read()
+def parse_tech_debt():
+    with open(os.path.expanduser('~/Desktop/out.json')) as f:
+        text = f.read()
 
-yt_results = json.loads(text)
+    yt_results = json.loads(text)
 
-print len(yt_results['issue'])
+    return len(yt_results['issue'])
+
+if __name__ == '__main__':
+    print parse_tech_debt()

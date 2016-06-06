@@ -5,7 +5,7 @@
   <key>Label</key>
   <string>com.jca.{proj_name}</string>
   <key>Program</key>
-  <string>{script_dir}/pull.py</string>
+  <string>{script_dir}/main.py</string>
   <key>RunAtLoad</key>
   <false/>
   <key>StandardOutPath</key>
@@ -19,7 +19,7 @@
       <key>Hour</key>
       <integer>16</integer>
       <key>Minute</key>
-      <integer>48</integer>
+      <integer>57</integer>
   </dict>
 </dict>
 </plist>
